@@ -1,0 +1,105 @@
+body{
+    background:linear-gradient(#ffffff,rgb(87, 181, 224));
+    background-repeat:no-repeat;
+    margin: 10px;
+    background-repeat:no-repeat ;
+    background-attachment:fixed ;
+    background-size:cover ;
+}
+.red{
+    position: absolute;
+    top: 100px;
+    left: -24px;
+    
+}
+a{
+    color:#00aeff;
+    padding: 18px 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.not-btn a:hover{
+ background:linear-gradient( #00aeff, #04ffea);
+ box-shadow:0 0 10px 10px #04ffea;
+ padding: 10px;
+ color: #ffffff;
+ border-radius: 9px;
+}
+button{
+    position: absolute;
+    top: 70px;
+    left: 198px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: none;
+    background:linear-gradient(#9dd0fa,#4d9bf3);
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#fff;
+    font-size: 17px ;
+    animation: shadowMove 2s infinite alternate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
+.hcss{
+  cursor: pointer;
+ animation:shadowFloat 0.80s cubic-bezier(0.75, -0.01, 0.15, 0.96) infinite alternate;
+}
+@keyframes  shadowFloat {
+   from{
+     box-shadow:0 0 6px 6px #04ffea;
+   }
+    to{
+
+         box-shadow:0 0 20px 20px #08e8f8;
+    }
+}
+h1{
+    position: absolute;
+    top: 260px;
+    width: 327px;
+    color:#ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+p{
+    position: absolute;
+    top: 355px;
+    width: 252px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    position: absolute;
+    top: 420px;
+    left: 20px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    position: absolute;
+    top: 500px;
+    border-radius: 15px;
+}
+img:hover{
+     transform: scale(1.1);
+    opacity: 0.60; 
+}
+.im1{ 
+    top: 500px;
+    border-radius: 15px;
+}
+.im2{
+    top: 807px;
+    left: 11px;
+    border-radius: 15px;
+}
+.im3{
+    left: 267px;
+}
+.im4{
+  top: 1140px;
+  left: 15px;
+}
