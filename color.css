@@ -30,7 +30,6 @@ body {
     .message.user {
       justify-content: flex-end;
     }
-
     .message.bot {
       justify-content: flex-start;
     }
@@ -72,12 +71,12 @@ body {
       cursor: pointer;
       position: absolute;
       top: 13px;
-      right:  -141px;
+      right:  212px;
     }
     .as{
       position: absolute;
       top:504px ;
-      left:693px;
+      left:339px;
     }
     button:hover {
       background: #0b5ed7;
@@ -90,19 +89,19 @@ body {
     .qw{
       background:linear-gradient(#0b5ed7,#7de7f5);
       font-size: 16px;
-      border-radius:0 0 0 8px;
+      border-radius:0 0 8px 0;
     }
     h1{
       position: absolute;
       color: #ffffff;
     }
     .qa{
-      right: 537px;
+      right: 234px;
       position: absolute;
       top: 0;
       color: #0099ff;
     }
     .dr{
       top: 0px;
-      left: 556px;
+      left: 186px;
     }
