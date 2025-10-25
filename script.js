@@ -1,4 +1,4 @@
-  function appendMessage(role, text) {
+   function appendMessage(role, text) {
     const chatBox = document.getElementById("chat-box")
 
     const msgDiv = document.createElement("div");
@@ -13,10 +13,8 @@
     } else {
       msgDiv.appendChild(bubble);
     }
-
     chatBox.appendChild(msgDiv);
   }
-
   function handleSend() {
     const input = document.getElementById("user-input");
     const msg = input.value.trim();

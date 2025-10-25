@@ -71,12 +71,12 @@ body {
       cursor: pointer;
       position: absolute;
       top: 13px;
-      right:  212px;
+      right: 324px;
     }
     .as{
       position: absolute;
       top:504px ;
-      left:339px;
+      left:224px;
     }
     button:hover {
       background: #0b5ed7;
@@ -104,4 +104,8 @@ body {
     .dr{
       top: 0px;
       left: 186px;
+    }
+    h3{
+      right: 14px;
+      position: absolute;
     }
