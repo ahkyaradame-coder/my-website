@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="color.css">
-  <link rel="icon" href="imges/IMG-20251019-WA0001.jpg" type="imges/x-icon">
-  <title>دردشة الدعم</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-<body>
-<div class="chat-container">
-  <div id="chat-box" class="chat-box"></div>
-  <div class="input-area">
-    <input type="text" id="user-input" placeholder="اكتب رسالتك...">
-    <img class="as" width="30" src="imges/paper-plane.svg" onclick="handleSend()">
-  </div>
-  <div>
-    <a href="Bulid.html"><button class="qw">Exit</button></a>
-  </div>
-  <h1 class="dr">Hi I'm </h1>
-  <h1 class="qa">Cali</h1>
-</div>
-<script>
   function appendMessage(role, text) {
     const chatBox = document.getElementById("chat-box")
 
@@ -88,6 +64,3 @@
       appendMessage("bot", reply);
     }, 3000);
   }
-</script> 
-</body>
-</html>
