@@ -46,7 +46,7 @@
       reply="Cali أنا\nتم تطوري لمساعدتك للإنشاء موقعك"; 
     } else if (msg.includes("شكر على المعلومات")){
       reply="لا مشكلة";
-       } else if (msg.includes("لا أحبك") || msg.includes("انت فاشل") || msg.includes("خطاء") || msg.includes("سيئ")){
+       } else if (msg.includes("لاأحبك") || msg.includes("انت فاشل") || msg.includes("خطاء") || msg.includes("سيئ")){
       reply="🥰✨أسف 🙏 انا هنا فقط للمسعاد \n 🥰😀 إذا تحتاج أي مساعد صنع موقعك انا هنا"; 
        } else if (msg.includes("كم الثمن") || msg.includes("كم الثمن الموقع")|| msg.includes(" كم الثمن صنع الموقع")){
       reply="موقع بسيط 10 الى 50 دولار\nموقع متوسط 50 إلى 100 دولار\n  موقع كبير 100 إلى 1000 دولار\n أخبرني بنوع موقعك";
