@@ -12,23 +12,38 @@ body{
     left: -24px;
     
 }
-a{
+.not-btn a{
+    background:#fff;
+     border-radius: 13px;
+    position: absolute;
     color:#00aeff;
-    padding: 18px 8px;
+    top: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 }
 .not-btn a:hover{
- background:linear-gradient( #00aeff, #04ffea);
- box-shadow:0 0 10px 10px #04ffea;
- padding: 10px;
- color: #ffffff;
- border-radius: 9px;
+   box-shadow:0 4px 4px  #333333af;
 }
-button{
+.a1{
+    left:10px;
+    padding: 12px;
+}
+.a2{
+    left: 100px;
+    padding: 12px;
+}
+.a3{
+left: 190px;
+  padding: 12px;
+}
+.a4{
+left: 310px;
+  padding: 12px;
+}
+ button{
     position: absolute;
-    top: 70px;
-    left: 198px;
+    top: 438px;
+    left: 281px;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 20px;
@@ -101,6 +116,8 @@ img:hover{
     left: 222px;
 }
 .im4{
-  top: 1140px;
-  left: 4px;
+   top: 1140px;
+   left: 4px;
 }
+
+ 
