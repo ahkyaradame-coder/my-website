@@ -36,5 +36,31 @@
   </p> 
   <h2>lock In ↓↓</h2>   
 </div>
+<button class="a2" onclick="startRecording()">ابدأ التسجيل</button>
+<audio id="audioPlayback" controls></audio>
+<script>
+  async function startRecording() {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true});
+      const mediaRecorder = new MediaRecorder(stream);
+      const audioChunks = [];
+
+      mediaRecorder.ondataavailable = event => {
+        audioChunks.push(event.data);
+};
+      mediaRecorder.onstop = () => {
+        const audioBlob = new Blob(audioChunks);
+        const audioUrl = URL.createObjectURL(audioBlob);
+        document.getElementById("audioPlayback").src = audioUrl;
+};
+      mediaRecorder.start();
+      setTimeout(() => {
+        mediaRecorder.stop();
+}, 5000); // يسجل لمدة 5 ثوانٍ
+} catch (err) {
+      console.error("حدث خطأ:")
+}
+}
+</script>
 </body>
 </html>
