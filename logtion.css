@@ -1,51 +1,51 @@
-body{
-    background:linear-gradient(#ffffff,rgb(87, 181, 224));
-    background-repeat:no-repeat;
+body {
+    background: linear-gradient(#ffffff, rgb(87, 181, 224));
+    background-repeat: no-repeat;
     margin: 10px;
-    background-repeat:no-repeat ;
-    background-attachment:fixed ;
-    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-.red{
+.red {
     position: absolute;
     top: 100px;
     left: -24px
 }
-.red:hover{
+.red:hover {
     box-shadow: none;
 }
-.im5:hover{
+.im5:hover {
     box-shadow: none;
 }
-.not-btn a{
-    background:#fff;
-     border-radius: 13px;
+.not-btn a {
+    background: #fff;
+    border-radius: 13px;
     position: absolute;
-    color:#00aeff;
+    color: #00aeff;
     top: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 }
-.not-btn a:hover{
-   box-shadow:0 4px 4px  #333333af;
+.not-btn a:hover {
+    box-shadow: 0 4px 4px #333333af;
 }
-.a1{
-    left:10px;
+.a1 {
+    left: 10px;
     padding: 12px;
 }
-.a2{
+.a2 {
     left: 100px;
     padding: 12px;
 }
-.a3{
-left: 190px;
-  padding: 12px;
+.a3 {
+    left: 190px;
+    padding: 12px;
 }
-.a4{
-left: 310px;
-  padding: 12px;
+.a4 {
+    left: 310px;
+    padding: 12px;
 }
- button{
+button {
     position: absolute;
     top: 438px;
     left: 281px;
@@ -53,88 +53,102 @@ left: 310px;
     padding-top: 10px;
     border-radius: 20px;
     border: none;
-    background:linear-gradient(#9dd0fa,#4d9bf3);
+    background: linear-gradient(#9dd0fa, #4d9bf3);
     padding-left: 20px;
     padding-right: 20px;
-    color:#fff;
-    font-size: 17px ;
+    color: #fff;
+    font-size: 17px;
     animation: shadowMove 2s infinite alternate;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-button:hover{
+button:hover {
     cursor: pointer;
 }
-.hcss{
-  cursor: pointer;
- animation:shadowFloat 0.80s cubic-bezier(0.75, -0.01, 0.15, 0.96) infinite alternate;
+.hcss {
+    cursor: pointer;
+    animation: shadowFloat 0.80s cubic-bezier(0.75, -0.01, 0.15, 0.96) infinite alternate;
 }
-@keyframes  shadowFloat {
-   from{
-     box-shadow:0 0 6px 6px #04ffea;
-   }
-    to{
+@keyframes shadowFloat {
+    from {
+        box-shadow: 0 0 6px 6px #04ffea;
+    }
 
-     box-shadow:0 0 20px 20px #08e8f8;
+    to {
+
+        box-shadow: 0 0 20px 20px #08e8f8;
     }
 }
-h1{
+h1 {
     position: absolute;
     top: 260px;
     width: 327px;
     font-weight: bold;
-    background: linear-gradient(to right,#a2bcf5, #6950f5,#0004ff);
+    background: linear-gradient(to right, #a2bcf5, #6950f5, #0004ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-} 
-p{
+}
+p {
     position: absolute;
     top: 355px;
     width: 252px;
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h2{
+h2 {
     position: absolute;
     top: 420px;
     left: 20px;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-img{
+img {
     position: absolute;
     top: 631px;
     border-radius: 15px;
-    
+
 }
 img:hover {
- zoom: 100.1%;
- box-shadow: 0 6px 20px 0 #000000;
+    zoom: 100.1%;
+    box-shadow: 0 6px 20px 0 #ffffff;
 }
-.im1{ 
+.im1 {
     top: 631px;
     border-radius: 15px;
     left: 4px;
-   
 }
-.im5{
-top: 1485px;
-left: 174px;
+.im5 {
+    top: 1333px;
+    left: 174px;
 }
-.im2{
-    top: 1033px;
+.im2 {
+    top: 945px;
     left: 11px;
     border-radius: 15px;
 }
-.im3{
+.im3 {
     left: 222px;
 }
-.im4{
-   top: 1421px;
-   left: 4px;
+.im4 {
+    top: 80pc;
+    left: 4px;
 }
-.a2{
+.im7{
+    top: 98pc;
+    left: 4px;
+}
+.a2 {
     top: 300px;
 }
-
- 
+.de {
+    padding-left: 648px;
+    padding-top: 89px;
+    padding-bottom: 84px;
+    padding-right: 20px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    background: linear-gradient(to left, #1d1d1f, #434347, #2d2626);
+    top: 147pc;
+    left: 0;
+    border-radius:20px 20px 0 0 ;
+}

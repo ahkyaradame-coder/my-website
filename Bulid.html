@@ -14,6 +14,7 @@
     <img class="im3" width="200" src="imges/صورة واتساب بتاريخ 1447-04-28 في 22.25.27_687e90bb.jpg">
     </a>
     <img class="im5" src="imges/app.png">
+    <img width="200" class="im7" src="imges/صورة واتساب بتاريخ 1447-05-04 في 20.19.26_1c6b5f87.jpg">
     <img class="im2" width="470" src="imges/صورة واتساب بتاريخ 1447-04-28 في 22.10.35_2e4be27f.jpg">
     <a href="adame.html">
     <img class="im1" width="200" src="imges/صورة واتساب بتاريخ 1447-04-28 في 22.02.01_4f1855f8.jpg">
@@ -36,31 +37,8 @@
   </p> 
   <h2>lock In ↓↓</h2>   
 </div>
-<button class="a2" onclick="startRecording()">ابدأ التسجيل</button>
-<audio id="audioPlayback" controls></audio>
-<script>
-  async function startRecording() {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true});
-      const mediaRecorder = new MediaRecorder(stream);
-      const audioChunks = [];
-
-      mediaRecorder.ondataavailable = event => {
-        audioChunks.push(event.data);
-};
-      mediaRecorder.onstop = () => {
-        const audioBlob = new Blob(audioChunks);
-        const audioUrl = URL.createObjectURL(audioBlob);
-        document.getElementById("audioPlayback").src = audioUrl;
-};
-      mediaRecorder.start();
-      setTimeout(() => {
-        mediaRecorder.stop();
-}, 5000); // يسجل لمدة 5 ثوانٍ
-} catch (err) {
-      console.error("حدث خطأ:")
-}
-}
+<div class="de">
+</div>
 </script>
 </body>
 </html>

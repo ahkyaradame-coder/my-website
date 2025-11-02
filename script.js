@@ -53,7 +53,7 @@
        } else if (msg.includes("بسيط")|| msg.includes("كبير") || msg.includes("متوسط")){
        reply="جيد لبدء صنع موقك تواصل مع الخبراء https://google.com";
        }else {
-      reply = "❌ هذا لا يتعلق بالموقع.";
+      reply = "❌ هذا لا يتعلق بالموقع. لا أعرف ماذ تقصد";
     }
     appendMessage("bot", "🔄 جارٍ المعالجة...");
     setTimeout(() => {
@@ -62,3 +62,21 @@
       appendMessage("bot", reply);
     }, 3000);
   }
+
+// --- Top fog on scroll ---
+(function () {
+  const FOG_ID = 'top-fog';
+  const THRESHOLD = 20; // px scrolled before fog appears
+  function updateFog() {
+    const fog = document.getElementById(FOG_ID);
+    if (!fog) return;
+    if (window.scrollY > THRESHOLD) {
+      fog.classList.add('visible');
+    } else {
+      fog.classList.remove('visible');
+    }
+  }
+  window.addEventListener('scroll', updateFog, { passive: true });
+  // run on load in case page opens scrolled (anchor link)
+  window.addEventListener('load', updateFog);
+})();
