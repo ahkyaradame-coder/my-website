@@ -97,8 +97,8 @@ p {
 }
 h2 {
     position: absolute;
-    top: 420px;
-    left: 20px;
+    top: 462px;
+    left: -5px;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -106,7 +106,6 @@ img {
     position: absolute;
     top: 631px;
     border-radius: 15px;
-
 }
 img:hover {
     zoom: 100.1%;

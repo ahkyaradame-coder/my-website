@@ -1,6 +1,5 @@
    function appendMessage(role, text) {
     const chatBox = document.getElementById("chat-box")
-
     const msgDiv = document.createElement("div");
     msgDiv.className = "message " + role;
     const avatar = document.createElement("img");
@@ -62,7 +61,6 @@
       appendMessage("bot", reply);
     }, 3000);
   }
-
 // --- Top fog on scroll ---
 (function () {
   const FOG_ID = 'top-fog';
