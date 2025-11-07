@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#ffffff, rgb(87, 181, 224));
+    background: linear-gradient(#ffffff, rgb(35, 155, 211));
     background-repeat: no-repeat;
     margin: 10px;
     background-repeat: no-repeat;
@@ -14,6 +14,7 @@ body {
 .red:hover {
     box-shadow: none;
 }
+
 .im5:hover {
     box-shadow: none;
 }
@@ -28,6 +29,13 @@ body {
 }
 .not-btn a:hover {
     box-shadow: 0 4px 4px #333333af;
+}
+.sa{
+    left: 420px;
+    padding: 12px;
+}
+.sa:hover{
+    text-decoration: dashed;
 }
 .a1 {
     left: 10px;
@@ -78,6 +86,17 @@ button:hover {
         box-shadow: 0 0 20px 20px #08e8f8;
     }
 }
+.im9{
+top: 250px;
+}
+.im10{
+top: -187px;
+left: -2px;
+}
+.im11{
+    top: 0px;
+    left: -266px;
+}
 h1 {
     position: absolute;
     top: 260px;
@@ -119,6 +138,10 @@ img:hover {
 .im5 {
     top: 1333px;
     left: 174px;
+}
+.im8{
+    top: 98pc;
+    left: 240px;
 }
 .im2 {
     top: 945px;
