@@ -31,6 +31,8 @@
       reply = "😀🥰على الرحب والسعة!";
     } else if (msg.includes("اهلا") || msg.includes("سلام") || msg.includes("أهلا") || msg.includes("مرحبا")){
       reply = "كيف الحال";
+    }else if (msg.includes("نعم")|| msg.includes("اجل") || msg.includes("أجل")){
+      reply="في ماذ تريد مساعدتك\n 1.صنع موقع تواصل \n 2.تواصل معنا";
     } else if(msg.includes("جيد")){
       reply= "👍🤖إذ كنت تريد اي مساعد لتجهيز موقعك أنا هنا للمساعد";
     } else if (msg.includes("كيف الحال")){
